@@ -1,0 +1,111 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #51fd93;
+  position: relative;
+  right: -700;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  right: -500;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  position: relative;
+  right: -600;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  position: right;
+  margin-right: 100;
+  position: relative;
+  right: -100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background: #c1e033;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  position: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  right: -750px;
+  padding: 0px;
+ 
+  margin-left: 10px;
+  cursor: pointer;
+  background: rgb(5, 181, 235);
+  border-radius: 30px;
+  
+}
+.sidenav {
+  width: 200px; /* Set the width of the sidebar */
+  top: 0; /* Stay at the top */
+  right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  background-color: rgb(5, 255, 234); /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #5191fd;
+  text-decoration: none;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  right: -750px;
+  background: #189deb;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin-right: 100px;
+  
+  color: rgb(233, 13, 13);
+  text-align: right;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 1000px;
+}
